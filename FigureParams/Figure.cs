@@ -1,4 +1,9 @@
-﻿public abstract class Figure
+﻿using System;
+using System.Xml.Serialization;
+
+[XmlIncludeAttribute(typeof(Circle)), XmlIncludeAttribute(typeof(Triangle)), XmlIncludeAttribute(typeof(Rectangle))]
+[Serializable]
+public abstract class Figure
 {
     /// <summary> Returns perimeter </summary>
     public abstract double P { get; }

@@ -1,9 +1,18 @@
 ﻿using System;
+
+[Serializable]
 public class Triangle : Figure
 {
 	private double a;
 	private double b;
 	private double c;
+
+	public Triangle()
+	{
+		a = 0;
+		b = 0;
+		c = 0;
+	}
 
 	/// <summary>Creates Triangle object based on given sides</summary>
 	/// <param name="_a">Triangle side</param>

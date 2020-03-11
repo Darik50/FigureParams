@@ -1,8 +1,16 @@
 ﻿using System;
+
+[Serializable]
 public class Rectangle : Figure
 {
 	private double a;
 	private double b;
+
+	public Rectangle()
+	{
+		a = 0;
+		b = 0;
+	}
 
 	/// <summary>Creates Rectangle object based on given sides</summary>
 	/// <param name="_a">Rectangle side</param>

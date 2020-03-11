@@ -1,8 +1,14 @@
 ﻿using System;
 
+[Serializable]
 public class Circle : Figure
 {
 	private double r;
+
+	public Circle()
+	{
+		r = 0;
+	}
 
 	/// <summary>Creates Circle object based on given radius</summary>
 	/// <param name="_r">Radius</param>
