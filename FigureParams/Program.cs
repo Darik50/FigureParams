@@ -82,9 +82,9 @@ namespace FigureParams
                 Console.WriteLine("  " + e.InnerException.Message);
             }
 
-            Console.ReadKey();
-            Trace.WriteLine("Exiting Main");
-            Trace.Unindent();  
+            //Console.ReadKey();
+            //Trace.WriteLine("Exiting Main");
+            //Trace.Unindent();  
         }
     }
 }
